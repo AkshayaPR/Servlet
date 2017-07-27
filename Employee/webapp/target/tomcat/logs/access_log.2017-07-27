@@ -1,0 +1,13 @@
+0:0:0:0:0:0:0:1 - - [27/Jul/2017:10:20:42 +0530] "GET / HTTP/1.1" 200 1775 http-bio-9090-exec-1 30
+0:0:0:0:0:0:0:1 - - [27/Jul/2017:10:22:37 +0530] "POST /SaveServlet HTTP/1.1" 200 1808 http-bio-9090-exec-4 703
+0:0:0:0:0:0:0:1 - - [27/Jul/2017:10:23:41 +0530] "GET /ViewServlet HTTP/1.1" 200 1666 http-bio-9090-exec-6 15
+0:0:0:0:0:0:0:1 - - [27/Jul/2017:10:24:27 +0530] "GET /EditServlet?name=Akshaya HTTP/1.1" 200 600 http-bio-9090-exec-7 15
+0:0:0:0:0:0:0:1 - - [27/Jul/2017:10:25:05 +0530] "POST /EditServlet2 HTTP/1.1" 302 - http-bio-9090-exec-8 63
+0:0:0:0:0:0:0:1 - - [27/Jul/2017:10:25:06 +0530] "GET /ViewServlet HTTP/1.1" 200 1664 http-bio-9090-exec-9 15
+0:0:0:0:0:0:0:1 - - [27/Jul/2017:10:27:40 +0530] "POST /EditServlet2 HTTP/1.1" 302 - http-bio-9090-exec-1 75
+0:0:0:0:0:0:0:1 - - [27/Jul/2017:10:27:41 +0530] "GET /ViewServlet HTTP/1.1" 200 1664 http-bio-9090-exec-1 11
+0:0:0:0:0:0:0:1 - - [27/Jul/2017:10:28:57 +0530] "GET /EditServlet?name=kiruthika HTTP/1.1" 200 604 http-bio-9090-exec-5 8
+0:0:0:0:0:0:0:1 - - [27/Jul/2017:10:29:05 +0530] "POST /EditServlet2 HTTP/1.1" 302 - http-bio-9090-exec-5 51
+0:0:0:0:0:0:0:1 - - [27/Jul/2017:10:29:05 +0530] "GET /ViewServlet HTTP/1.1" 200 1664 http-bio-9090-exec-5 8
+0:0:0:0:0:0:0:1 - - [27/Jul/2017:10:29:10 +0530] "GET /DeleteServlet?name=kiruthika HTTP/1.1" 302 - http-bio-9090-exec-5 62
+0:0:0:0:0:0:0:1 - - [27/Jul/2017:10:29:10 +0530] "GET /ViewServlet HTTP/1.1" 200 1465 http-bio-9090-exec-5 31
